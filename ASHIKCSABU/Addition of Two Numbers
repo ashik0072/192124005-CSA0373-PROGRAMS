@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{
+    int a,b,sum;
+    printf("Enter the first number:");
+    scanf("%d",&a);
+    printf("Enter the second number:");
+    scanf("%d",&b);
+    sum=a+b;
+    printf("Sum of two numbers: %d",sum);
+}
+
+
+OUTPUT:
+Enter the first number: 13
+Enter the second number: 6
+Sum of two numbers: 19

@@ -1,0 +1,25 @@
+#include<stdio.h>
+void main()
+{
+	int n1,n2,lcm,i;
+	printf("Enter the first number:");
+	scanf("%d",&n1);
+	printf("Enter the second number:");
+	scanf("%d",&n2);
+	lcm=(n1>n2)?n1:n2;
+	while(1)
+	{
+		if(lcm%n1==0 && lcm%n2==0)
+		{
+			printf("LCM: %d",lcm);
+			break;
+		}
+		++lcm;
+	}
+}
+
+
+OUTPUT:
+Enter the first number:15
+Enter the second number:25
+LCM: 75
